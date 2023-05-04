@@ -1,0 +1,316 @@
+/* header section style */
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+
+    text-align: center;
+
+    background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(../images/donation5.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 670px;
+}
+
+.header-title {
+    padding-top: 250px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+.header-description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.primary-btn {
+    padding: 16px 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 0;
+    background: #FF5959;
+    border-radius: 5px;
+}
+
+/* section 1 style */
+.section1 {
+    margin-top: 130px;
+    text-align: center;
+    color: #121212;
+}
+
+.section1.title {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.section1-description {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+}
+
+.taka {
+    display: flex;
+    justify-content: center;
+}
+
+.taka-value {
+    padding: 43px 25px;
+    margin-right: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+}
+
+.taka >.taka-value:hover {
+    background: #FFEEEE;
+    border: 1px solid #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
+
+}
+
+input[type="text"] {
+    
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #DADADA;
+    ;
+    color: #B3B3B3;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+/* section 2 style */
+.section2 {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.section2-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-bottom: 20px;
+
+}
+
+.section2-description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+.plans {
+    text-align: left;
+    width: 260px;
+    height: 252px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 45px 33px;
+    margin-left: 30px;
+
+}
+
+.donate-plan {
+    display: flex;
+    justify-content: center;
+}
+
+.plans img {
+    height: 53px;
+    width: 53px;
+}
+
+/* section3 style */
+.contribute {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    padding: 130px 220px 30px 200px;
+}
+
+.contribute img {
+    width: 456px;
+    height: 477px;
+}
+
+.contribute-header {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+
+.contribute-description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+}
+
+.contribute-btn {
+    margin-top: 30px;
+    ;
+    width: 230px;
+    height: 56px;
+    background: #FF5959;
+    border-radius: 5px;
+    border: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.cont-info {
+    width: 500px;
+    height: 400px;
+}
+
+/* 
+section4 style */
+.section4 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.update-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-bottom: 20px;
+    ;
+}
+
+.update-description {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+.search-field {
+    width: 275px;
+    height: 48px;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    border: 0;
+    padding-left: 20px;
+    ;
+}
+
+.search-submit {
+    width: 157px;
+    height: 48px;
+    color: #FFFFFF;
+    text-align: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+    border: 0;
+    margin-bottom: 130px;
+}
+/* footer section */
+footer{
+    text-align:center;
+    background: #0B0D17;
+    padding:42px 630px;
+}
+.footer-title {
+    letter-spacing: 0.5px;
+
+color: #FF5959;
+font-family: 'Lobster';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+}
+.footer-details{
+    font-family: 'Lobster';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;color: #D9DBE1;
+}
+.hide ,.section4,footer{
+    display: none;
+}
+/* responsive */
+@media screen and (max-width:688px) {
+    .header{
+        padding:5px;
+        font-size: 20px;
+    }
+    .header-title{
+        font-size:30px ;
+    }
+    .header-description{
+        font-size:16px;
+    }
+    .taka{
+        flex-direction: column;
+        padding:20px;
+    }
+    .donate-plan{
+        flex-direction: column;
+        
+    }
+    .plans{
+        margin-bottom: 20px;
+    }
+    .contribute{
+        flex-direction: column;
+       
+    }
+    .section3{
+        justify-content: flex-start;
+    }
+   
+   
+
+}
