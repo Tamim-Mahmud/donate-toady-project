@@ -277,9 +277,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;color: #D9DBE1;
 }
-.hide ,.section4,footer{
-    display: none;
-}
+
 /* responsive */
 @media screen and (max-width:688px) {
     .header{
